@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWS APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+   <div class="main-nav container flex">
+      <a href="a" class="company-logo">
+        <img src="https://media.istockphoto.com/id/1329311848/vector/initial-m-letter-black-color-with-white-background-logo-design-vector-template-creative.jpg?s=612x612&w=0&k=20&c=7l9RiihYx6POuAOQNV9Kq2IGDEGCcHUHaTL0GqmweVE=" alt="company logo">
+      </a>
+      <div class="nav-links" >
+        <ul class="flex">
+            <li class="hover-link nav-items">IPL</li>
+            <li class="hover-link nav-items">Finance</li>
+            <li class="hover-link nav-items">Politics</li>
+        </ul>
+      </div>
+      <div class="search-bar flex">
+        <input type="text" class="news-input" placeholder="e.g.science">
+        <button class="search-button">Search</button>
+      </div>
+   </div>
+</nav>
+
+
+<main>
+  <div class="cards-container container flex" id="cards-container">
+  
+  </div>
+</main>
+
+<template id="template-news-card">
+  <div class="card">
+    <div class="card-header">
+      <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+    </div>
+      <div class="card-content">
+        <h3 id="news-title">This is the Title</h3>
+        <h6 id="news-source">End gadget 28/08/2023</h6>
+        <p id="news-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad error tempore quas asperiores libero at itaque blanditiis odit, sapiente quo!</p>
+      </div>
+  </div>
+</template>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
